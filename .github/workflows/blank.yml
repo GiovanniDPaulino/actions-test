@@ -42,7 +42,7 @@ jobs:
 
     steps:
 
-      #- uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Runs the first test
         run: python test_calculator.py
